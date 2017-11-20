@@ -10,11 +10,10 @@
       <button ion-button menuToggle>
           <ion-icon name="menu"></ion-icon>
         </button>
-    <ion-title>cards</ion-title>
+    <ion-title>Basic Cards</ion-title>
   </ion-navbar>
 
 </ion-header>
-
 
 <ion-content padding>
   
@@ -54,22 +53,62 @@
   
       <button ion-item>
         <ion-icon name="planet" item-start></ion-icon>
-        Space
+        Test
       </button>
   
     </ion-list>
   </ion-card>
+  <!-- Images  !-->
   <ion-card>
-    <img src="img/nin-live.png"/>
-    <ion-card-content>
-      <ion-card-title>
-        Nine Inch Nails Live
-        </ion-card-title>
-      <p>
-        The most popular industrial group ever, and largely
-        responsible for bringing the music to a mass audience.
-      </p>
-    </ion-card-content>
+    
+        <img src="assets/img/nin-live.png"/>
+    
+        <ion-card-content>
+          <ion-card-title>
+            Nine Inch Nails Live
+          </ion-card-title>
+          <p>
+            The most popular industrial group ever, and largely responsible for bringing the music to a mass audience.
+          </p>
+        </ion-card-content>
+    
+        <ion-row no-padding>
+          <ion-col>
+            <button ion-button clear small color="danger" icon-start>
+              <ion-icon name='star'></ion-icon>
+              Favorite
+            </button>
+          </ion-col>
+          <ion-col text-center>
+            <button ion-button clear small color="danger" icon-start>
+              <ion-icon name='musical-notes'></ion-icon>
+              Listen
+            </button>
+          </ion-col>
+          <ion-col text-right>
+            <button ion-button clear small color="danger" icon-start>
+              <ion-icon name='share-alt'></ion-icon>
+              Share
+            </button>
+          </ion-col>
+        </ion-row>
+    
+      </ion-card>
+ 
+      
+
+
+
+
+
+      
+      <!-- background image-->
+  <ion-content  class="card-background-page" padding> 
+ <ion-card >
+    <img src="assets/img/card-saopaolo.png"/>
+    <div class="card-title">São Paulo</div>
+    <div class="card-subtitle">41 Listings</div>
   </ion-card>
-  
+
+</ion-content>
 </ion-content>

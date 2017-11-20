@@ -1,3 +1,4 @@
+import { MapCardPage } from './../pages/map-card/map-card';
 import { CardsPage } from './../pages/cards/cards';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule, ErrorHandler } from '@angular/core';
@@ -10,14 +11,16 @@ import { ListPage } from '../pages/list/list';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { SocialCardPage } from '../pages/social-card/social-card';
 
 @NgModule({
   declarations: [
     MyApp,
-    HelloIonicPage,
-    ItemDetailsPage,
+    HelloIonicPage,ItemDetailsPage,
     ListPage,
-    CardsPage
+    CardsPage,
+    SocialCardPage,
+    MapCardPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +32,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     HelloIonicPage,
     ItemDetailsPage,
     ListPage,
-    CardsPage
+    CardsPage,
+    SocialCardPage,
+    MapCardPage
   ],
   providers: [
     StatusBar,
